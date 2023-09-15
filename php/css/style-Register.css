@@ -1,0 +1,79 @@
+h6 {
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 500px;
+    color: #F18234;
+    margin-top: 72px;
+}
+
+p {
+    font-family: Poppins;
+    font-size: 14px;
+    color: #707070;
+}
+
+a {
+    color: #F18234;
+    font-family: Poppins;
+    font-size: 14px;
+}
+
+label {
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0.16px;
+}
+
+.form-control {
+    height: 48px;
+    border: 1px solid #707070;
+    margin-bottom: 18px;
+}
+
+.btn-create {
+    font-family: Poppins;
+    margin-top: 14px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    background: #F18234;
+    padding: 15px;
+    color: #fff;
+}
+
+.btn-create:hover {
+    background-color: #e0772c;
+    color: #fff;
+}
+
+.copy {
+    margin-top: 60px;
+}
+
+.copy h5 {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.copy p {
+    color: #000;
+}
+
+@media (max-width: 992px) {
+    .img-div img {
+        display: none;
+    }
+    .copy {
+        justify-content: center;
+        text-align: center;
+    }
+    .copy h5 {
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 400;
+    }
+}

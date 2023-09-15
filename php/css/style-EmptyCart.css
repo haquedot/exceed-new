@@ -1,0 +1,55 @@
+h6 {
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+p {
+    color: #707070;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+button {
+    width: 400px;
+    height: 56px;
+    background-color: #F18234;
+    color: #fff;
+    border: none;
+    border-radius: 12px;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+button:hover {
+    background-color: #e0772c;
+    color: #fff;
+}
+
+.d-flex {
+    justify-content: center;
+    align-items: center;
+    margin-top: 18px;
+}
+
+.d-block {
+    text-align: center;
+}
+
+@media (max-width: 992px) {
+    button {
+        width: 100%;
+    }
+}

@@ -1,0 +1,268 @@
+h6 {
+    color: #F18234;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 34px;
+    margin-bottom: 22px;
+}
+
+h5 {
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.16px;
+}
+
+label {
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.16px;
+    margin-top: 26px;
+    margin-bottom: 12px;
+}
+
+p {
+    margin: 0;
+}
+
+.form-control {
+    border: 1px solid #707070;
+    display: inline-flex;
+    height: 47.855px;
+    padding: 11.84px 12px 12.016px 12px;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.input-div {
+    padding-right: 30px;
+}
+
+.input-div .remove {
+    display: none;
+}
+
+.row {
+    --bs-gutter-x: 0;
+}
+
+
+/* .container {
+    max-width: 1672px;
+} */
+
+.modal-header {
+    border-bottom: none;
+    font-family: Poppins;
+}
+
+.modal-dialog {
+    max-width: 950px;
+}
+
+.modal-content {
+    border-radius: 8px;
+}
+
+.modal-footer {
+    border-top: none;
+}
+
+.modal-footer .btn-primary {
+    border-radius: 8px;
+}
+
+.btn-primary {
+    background-color: #F18234;
+    color: white;
+    font-family: Poppins;
+    padding: 12px 32px;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #ce7230;
+    color: white;
+}
+
+.class-content {
+    max-width: 1672px;
+    display: inline-flex;
+    align-items: center;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.14px;
+    padding-left: 14px;
+}
+
+.border-grey {
+    border: 1px solid #707070 !important;
+}
+
+.row {
+    margin-bottom: 9px;
+}
+
+.class-content-1 {
+    color: #F18234;
+    font-weight: 500;
+}
+
+.class-content-5 {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+span {
+    font-family: Poppins;
+    color: #707070;
+}
+
+.collapse {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #00000069;
+    /* transition: none; */
+}
+
+.std {
+    width: 80%;
+    margin: auto;
+    /* z-index: 1; */
+}
+
+.card {
+    display: block;
+    /* width: 50%; */
+    margin: auto;
+    font-family: Poppins;
+    font-size: 16px;
+}
+
+.remove-div {
+    display: flex;
+    align-items: flex-end;
+}
+
+.remove {
+    border: none;
+    color: #FC0D1B;
+    background-color: #EBF6FE;
+    border-radius: 8px;
+    padding: 12px;
+}
+
+.remove i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FC0D1B;
+    padding-bottom: 12px;
+}
+
+.add {
+    color: #34A2F1;
+    border: none;
+    background: none;
+}
+
+.close {
+    border: none;
+    background-color: transparent;
+}
+
+@media (max-width: 992px) {
+    .modal-footer {
+        margin-top: 36px;
+        padding: 0;
+    }
+    .modal-footer .btn-primary {
+        width: 50%;
+        margin: 0;
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+    .modal-footer .add {
+        margin: 0;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        color: #34A2F1;
+        border: none;
+        background: none;
+        margin: 0;
+    }
+    .modal-dialog {
+        max-width: 100%;
+        margin: 0;
+    }
+    .student-2 {
+        display: none;
+    }
+    h6 {
+        font-size: 16px;
+        margin-bottom: 14px;
+    }
+    .input-div {
+        padding-right: 0;
+    }
+    .birth-remove {
+        width: 100%;
+        display: flex;
+    }
+    .input-div .birth {
+        width: 90%;
+        display: flex;
+    }
+    .input-div .remove {
+        width: 48px;
+        height: 48px;
+        margin-left: 16px;
+        padding: 12px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .input-div .remove i {
+        padding: 0;
+    }
+    .class-content-1 {
+        display: flex;
+        align-items: center;
+        background-color: #FEF3EB;
+        padding: 10px 10px;
+        margin-bottom: 8px;
+    }
+    .row {
+        gap: 12px;
+    }
+    .class-content-5 {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: right;
+    }
+    .btn-primary {
+        width: 100%;
+    }
+    .remove-div {
+        display: none;
+    }
+}

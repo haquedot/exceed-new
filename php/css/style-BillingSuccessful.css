@@ -1,0 +1,263 @@
+h5 {
+    color: var(--brand-white, #FFF);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+p {
+    color: #fff;
+    /* text-align: center; */
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+li {
+    list-style: none;
+    color: #707070;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.14px;
+}
+
+span {
+    color: #1C1C1C;
+    text-align: left;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.14px;
+}
+
+h6 {
+    color: #1C1C1C;
+    text-align: left;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.14px;
+}
+
+.main-div {
+    display: flex;
+    justify-content: center;
+    padding-top: 52px;
+    padding-bottom: 90px;
+    background-color: #F18234;
+    /* height: 50vh; */
+}
+
+.circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #19C670;
+    width: 106px;
+    height: 106px;
+    border-radius: 52px;
+}
+
+.circle i {
+    font-size: 103px;
+    color: #fff;
+}
+
+.d-flex {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card-div {
+    width: 70%;
+    border: 1px solid #707070;
+    border-radius: 8px;
+    margin-top: -70px;
+    background-color: #fff;
+}
+
+.heading {
+    padding: 12px 0 0 12px;
+}
+
+.heading p {
+    color: #F18234;
+    text-align: left;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.14px;
+    margin: 0;
+}
+
+.date {
+    display: block;
+    text-align: left;
+    padding-top: 8px;
+}
+
+.time {
+    display: block;
+    text-align: left;
+    padding-top: 8px;
+}
+
+.details {
+    width: 100%;
+    display: flex;
+    text-align: left;
+}
+
+.details .d-block {
+    width: 33%;
+    /* margin-right: 54px; */
+}
+
+.details p {
+    color: var(--brand-emphasis-high-emphasis, #1C1C1C);
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.14px;
+    margin: 0;
+}
+
+.details span {
+    color: #707070;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.14px;
+}
+
+.paid {
+    width: 100%;
+}
+
+.paid p {
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    width: 50%;
+    color: #000;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.16px;
+}
+
+.paid span {
+    display: flex;
+    justify-content: right;
+    width: 50%;
+    color: var(--brand-primary-primary-600, #F18234);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.16px;
+}
+
+.button-div {
+    margin-top: 30px;
+}
+
+.button-div button {
+    width: 400px;
+    height: 56px;
+    background-color: #F18234;
+    border: none;
+    border-radius: 12px;
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.button-div button:hover {
+    background-color: #e0772c;
+    color: #fff;
+}
+
+.row {
+    --bs-gutter-x:
+}
+
+.hide-show {
+    display: none;
+}
+
+@media (max-width: 992px) {
+    .main-div {
+        padding-bottom: 161px;
+    }
+    .card-div {
+        width: 95%;
+        margin-top: -133px;
+    }
+    .button-div button {
+        width: 95%;
+    }
+    .heading {
+        background-color: #FEF3EB;
+        border-radius: 8px 8px 0 0;
+        padding-bottom: 12px;
+        margin: 0;
+    }
+    .date {
+        display: flex;
+        padding-left: 12px;
+    }
+    .time {
+        display: flex;
+        padding-left: 12px;
+    }
+    .date span {
+        color: #707070;
+    }
+    .date li {
+        color: #000;
+    }
+    .time span {
+        color: #707070;
+    }
+    .time li {
+        color: #000;
+    }
+    .hide-show {
+        display: block;
+    }
+    .hide-mob {
+        display: none;
+    }
+    /* .details .d-block {
+        width: 33%;
+        margin-right: 38px;
+    } */
+}

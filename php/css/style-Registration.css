@@ -1,0 +1,78 @@
+h6 {
+    color: #F18234;
+    font-size: 22px;
+    /* padding-left: 2px; */
+    font-family: Poppins;
+    margin-top: 21px;
+    margin-bottom: 22px;
+}
+
+.regImage img {
+    height: 120%;
+}
+
+label {
+    line-height: 48px;
+    font-family: Poppins;
+    font-weight: 400;
+}
+
+input {
+    margin-bottom: 18px;
+}
+
+select {
+    margin-bottom: 18px;
+}
+
+.form-control {
+    border: 1px solid #707070;
+}
+
+.form-select {
+    border: 1px solid #707070;
+}
+
+.container-fluid {
+    /* display: flex; */
+    width: 100%;
+}
+
+.col-lg-8 {
+    display: flex;
+    justify-content: right;
+}
+
+.btnSubmit {
+    background-color: #F18234;
+    color: white;
+}
+
+.btnSubmit:hover {
+    background-color: #ce7230;
+    color: white;
+}
+
+.btn-outline-secondary {
+    color: #000958;
+}
+
+.btn-outline-secondary:hover {
+    color: #000958;
+    background-color: rgb(224, 224, 224);
+}
+
+@media (max-width: 992px) {
+    .logoE {
+        padding-left: 0px;
+    }
+    .regImage {
+        display: none;
+    }
+    .navbar {
+        display: none;
+    }
+    .navRight {
+        display: none;
+    }
+}

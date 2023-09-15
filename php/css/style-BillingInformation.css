@@ -1,0 +1,322 @@
+h6 {
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 500px;
+    color: #F18234;
+    margin-top: 72px;
+    /* margin-left: 12px; */
+}
+
+h5 {
+    color: #000025;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 12px;
+    margin-bottom: 32px;
+}
+
+p {
+    font-family: Poppins;
+    font-size: 14px;
+    color: #707070;
+}
+
+a {
+    color: #F18234;
+    font-family: Poppins;
+    font-size: 14px;
+}
+
+label {
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0.16px;
+}
+
+.form-group {
+    padding-right: 8px;
+}
+
+.form-control {
+    height: 48px;
+    border: 1px solid #707070;
+    margin-bottom: 18px;
+}
+
+.btn-create {
+    font-family: Poppins;
+    margin-bottom: 14px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    background: #F18234;
+    padding: 15px;
+    color: #fff;
+}
+
+.btn-create:hover {
+    background-color: #e0772c;
+    color: #fff;
+}
+
+.copy {
+    margin-top: 60px;
+}
+
+.copy h5 {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.copy p {
+    color: #000;
+}
+
+.payment-info {
+    border-radius: 12px;
+    background: #EBF6FE;
+    backdrop-filter: blur(155px);
+}
+
+.card-div {
+    display: flex;
+    justify-content: center;
+}
+
+.img-div {
+    display: flex;
+    justify-content: right;
+}
+
+.month-year {
+    width: 100%;
+}
+
+.month {
+    width: 50%;
+}
+
+.year {
+    width: 50%;
+}
+
+.card-1 {
+    width: 197px;
+    height: 283px;
+    border-radius: 20px;
+    background: linear-gradient(180deg, rgba(0, 0, 35, 0.16) 0%, rgba(255, 255, 255, 0.20) 100%);
+    backdrop-filter: blur(65px);
+    padding: 17px;
+}
+
+.card-number {
+    margin-top: 32px;
+}
+
+.card-number label {
+    color: #FFF;
+    font-family: Segoe UI;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.card-number p {
+    color: rgba(255, 255, 255, 0.60);
+    font-family: Segoe UI;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.valid-cvv {
+    display: flex;
+    margin-top: 104px;
+}
+
+.valid {
+    display: flex;
+    justify-content: left;
+}
+
+.cvv {
+    display: flex;
+    justify-content: right;
+}
+
+.valid-cvv label {
+    color: #FFF;
+    font-family: Segoe UI;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.valid-cvv p {
+    color: rgba(255, 255, 255, 0.60);
+    font-family: Segoe UI;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.subtract {
+    display: flex;
+    justify-content: center;
+    /* background-image: url(Subtract.svg); */
+    margin-top: -143px;
+    /* margin-bottom: -22px; */
+}
+
+.subtract-content {
+    margin-top: -181px;
+}
+
+.subtract-content span {
+    color: #707070;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px;
+    /* 242.857% */
+    letter-spacing: 0.14px;
+}
+
+.subtract-content p {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px;
+    /* 242.857% */
+    letter-spacing: 0.14px;
+}
+
+.subtract-content hr {
+    border-top: 2px dashed #FFF;
+}
+
+.subtract-img {
+    display: none;
+}
+
+.justify-content-left {
+    width: 70%;
+    justify-content: left;
+    align-items: center;
+}
+
+.justify-content-right {
+    width: 30%;
+    justify-content: right;
+    align-items: center;
+    margin: 0;
+}
+
+.subtract-div {
+    justify-content: center;
+}
+
+.form-mob {
+    display: none;
+}
+
+.show-mob {
+    display: none;
+}
+
+@media (max-width: 992px) {
+    h5 {
+        margin: 0;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 48px;
+        letter-spacing: 0.16px;
+    }
+    .form-group {
+        padding-right: 0;
+    }
+    .img-div img {
+        margin: -10px;
+        margin-bottom: -440px;
+        display: block;
+        transform: rotate(90deg);
+    }
+    .copy {
+        justify-content: center;
+        text-align: center;
+    }
+    .copy h5 {
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .payment-info {
+        background: none;
+        backdrop-filter: none;
+    }
+    .card-1 {
+        transform: rotate(-90deg);
+    }
+    .hide-show {
+        display: none;
+    }
+    .subtract-img {
+        display: flex;
+        height: 100%;
+        margin-top: -180px;
+        z-index: -1;
+    }
+    .subtract-img img {
+        z-index: -1;
+    }
+    .card-number {
+        margin-top: 121px;
+        margin-right: -126px;
+        transform: rotate(90deg);
+    }
+    .valid-cvv {
+        height: 123%;
+        width: 155%;
+        padding-top: 222px;
+        display: flex;
+        transform: rotate(90deg);
+        margin-top: -205px;
+        margin-right: 37px;
+    }
+    .hide-mob {
+        display: none;
+    }
+    .show-mob {
+        display: block;
+    }
+    .form-mob {
+        display: block;
+        margin-top: -335px;
+        background-color: #000025;
+    }
+    .form-mob label {
+        color: #fff;
+    }
+    .subtract-content {
+        margin-top: -1px;
+        background-color: #000025;
+    }
+    .btn-div {
+        padding: 14px;
+        background-color: #000025;
+    }
+}

@@ -1,0 +1,389 @@
+h6 {
+    color: #F18234;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 31px;
+    margin-bottom: 21px;
+}
+
+label {
+    text-align: left;
+}
+
+.tution-div {
+    display: flex;
+    align-items: flex-end;
+}
+
+.tution-fee {
+    padding-top: 4px;
+    padding-right: 30px;
+}
+
+.tution-fee p {
+    text-align: right;
+}
+
+.tution-fee h4 {
+    text-align: right;
+}
+
+p {
+    width: 100%;
+    margin: 0;
+    font-size: 14px;
+    font-family: Poppins;
+}
+
+li {
+    color: #707070;
+}
+
+span {
+    color: #707070;
+    font-family: Poppins;
+    text-align: center;
+    font-size: 14px;
+}
+
+.orange {
+    color: #F18234;
+}
+
+.row {
+    margin: 0;
+}
+
+.cart-content {
+    z-index: 1;
+    border-radius: 8px;
+    background-color: #EBF6FE;
+}
+
+.cart-1 {
+    padding: 0;
+    margin-bottom: 18px;
+}
+
+.cart-details hr {
+    display: none;
+}
+
+.total-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 0;
+    padding-left: 30px;
+}
+
+.total {
+    border: 2px solid #F18234;
+    border-radius: 8px;
+    box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.25);
+    background: #FFF;
+    margin-bottom: 18px;
+}
+
+.sub-total span {
+    color: #000;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.14px;
+}
+
+.justify-content-left {
+    width: 100%;
+    justify-content: left;
+    align-items: center;
+}
+
+.justify-content-right {
+    justify-content: right;
+    align-items: center;
+}
+
+.hide-show {
+    display: none;
+}
+
+.cart-content .collapse:not(.show) {
+    display: flex;
+}
+
+.accordion-button {
+    display: block;
+    width: auto;
+    background-color: transparent;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.form-check-input {
+    margin-top: 0;
+}
+
+.form-check-input:checked[type=checkbox] {
+    border-radius: 5px;
+}
+
+.payment {
+    background-color: #EBF6FE;
+    border-radius: 8px;
+    margin-top: -12px;
+    padding-top: 16px;
+}
+
+.payment h5 {
+    font-family: Poppins;
+    font-size: 14px;
+    margin: 0;
+}
+
+.full-payment {
+    background-color: #FFF;
+    color: #000;
+    border: none;
+    border-radius: 12px;
+}
+
+.full-payment button {
+    width: 100%;
+    padding: 12px;
+    /* height: 50px; */
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    color: #000025;
+    border: none;
+    border-radius: 12px;
+}
+
+.full-payment button:not(.collapsed) {
+    border: none;
+    background-color: #000025;
+    color: #fff;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.accordion-header label {
+    width: 100%;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.authorized {
+    background-color: #FFF;
+    color: #000;
+    border: none;
+    border-radius: 12px;
+}
+
+.authorized button {
+    width: 100%;
+    padding: 12px;
+    /* height: 50px; */
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    color: #000025;
+    border: none;
+    border-radius: 12px;
+}
+
+.authorized button:not(.collapsed) {
+    border: none;
+    background-color: #000025;
+    color: #fff;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.pay-button {
+    border: none;
+    background-color: #F18234;
+    color: #fff;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 15px 0px 15px 0px;
+    border-radius: 5px;
+}
+
+.pay-button:hover {
+    background-color: #db762d;
+    color: white;
+}
+
+.pay-button:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.hide-show {
+    display: none;
+}
+
+.pay {
+    color: #000;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.18px;
+}
+
+.pay span {
+    color: #000;
+}
+
+.width-div {
+    display: flex;
+    width: 40%;
+}
+
+@media (max-width: 992px) {
+    .hide-show {
+        display: flex;
+        align-items: center;
+    }
+    h6 {
+        margin-top: 22px;
+        margin-bottom: 14px;
+    }
+    li {
+        padding-left: 4px;
+        list-style: none;
+        color: #000;
+    }
+    .cart-details hr {
+        display: block;
+    }
+    .para p {
+        width: auto;
+    }
+    .hide-mob {
+        display: none;
+    }
+    .hide-show {
+        display: flex;
+        align-items: center;
+    }
+    .heading {
+        width: 100%;
+        margin-bottom: 11px;
+    }
+    .heading-left {
+        align-items: center;
+        width: 90%;
+        background-color: #34A2F1;
+        color: #fff;
+        border-top-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+    }
+    .heading-right {
+        width: 15%;
+        align-items: center;
+        justify-content: center;
+        color: #F18234;
+    }
+    .remove-mob button {
+        background-color: transparent;
+        color: #FC0D1B;
+        border: none;
+    }
+    .collapse {
+        display: none;
+    }
+    .cart-details .collapse:not(.show) {
+        display: none;
+    }
+    .collapse:not(.show) {
+        display: none;
+    }
+    .collapse.show {
+        display: block;
+        max-height: auto;
+        overflow: hidden;
+        transition: max-height 0.2s ease-out;
+    }
+    .accordion-button {
+        display: flex;
+        padding: 12px;
+    }
+    .payment {
+        background-color: #000025;
+    }
+    .payment h5 {
+        font-family: Poppins;
+        font-size: 14px;
+        color: #fff;
+    }
+    .full-payment button {
+        width: 100%;
+        display: flex;
+        background-color: #fff;
+        color: #000;
+        border: none;
+        border-radius: 12px;
+    }
+    .authorized button {
+        width: 100%;
+        display: flex;
+        background-color: #fff;
+        color: #000;
+        border: none;
+        border-radius: 12px;
+    }
+    .full-payment button:not(.collapsed) {
+        background-color: #fff;
+        color: #000;
+    }
+    .authorized button:not(.collapsed) {
+        background-color: #fff;
+        color: #000;
+    }
+    .tution-div {
+        display: none;
+    }
+    .total-div {
+        display: flex;
+        justify-content: ;
+        align-items: center;
+        padding: 0;
+    }
+    .total {
+        box-shadow: none;
+        border: 0.5px solid #F18234;
+        /* stroke-width: 0.5px; */
+        stroke: #F18234;
+    }
+    .width-div {
+        width: 100%;
+    }
+    .accordion-button::after {
+        background-image: none;
+    }
+    .accordion-button:not(.collapsed)::after {
+        background-image: none;
+        transform: none;
+    }
+}
