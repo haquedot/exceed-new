@@ -146,11 +146,11 @@
                                 <div class="row form-block m-0">
                                     <div class="col-lg-3 input-div input-div">
                                         <label for="firstName" class="">First name</label>
-                                        <input type="email" class="form-control " placeholder="Test" id="firstName">
+                                        <input type="text" class="form-control " placeholder="Test" id="firstName">
                                     </div>
                                     <div class="col-lg-3 input-div">
                                         <label for="firstName" class="">Last name</label>
-                                        <input type="email" class="form-control " placeholder="One" id="firstName">
+                                        <input type="text" class="form-control " placeholder="One" id="firstName">
                                     </div>
                                     <div class="col-lg-4 input-div ">
                                         <label for="firstName" class="">Date of birth</label>
@@ -204,11 +204,11 @@
         <div class="row form-block m-0">
             <div class="col-lg-3 input-div input-div">
                <label for="firstName" class="">First name</label>
-                    <input type="email" class="form-control " placeholder="Test" id="firstName">
+                    <input type="text" class="form-control " placeholder="Test" id="firstName">
             </div>
             <div class="col-lg-3 input-div">
                 <label for="firstName" class="">Last name</label>
-                <input type="email" class="form-control " placeholder="One" id="firstName">
+                <input type="text" class="form-control " placeholder="One" id="firstName">
             </div>
             <div class="col-lg-4 input-div ">
                 <label for="firstName" class="">Date of birth</label>
